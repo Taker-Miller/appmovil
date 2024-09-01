@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Malos Hábitos App</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrate">¿No tienes cuenta? Regístrate</string>
+    <string name="hint_nombre_usuario">Ingresa tu Nombre&#8230;</string>
+    <string name="hint_contrasena">Ingresa tu Contraseña&#8230;</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="registrar_malos_habitos">Registrar Malos Hábitos</string>
+    <string name="metas">Metas</string>
+    <string name="desafios_diarios">Desafíos Diarios</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="progreso">Progreso</string>
+    <string name="reflexiones_diarias">Reflexiones Diarias</string>
+    <string name="tus_malos_habitos">Tus Malos Hábitos</string>
+
+</resources>

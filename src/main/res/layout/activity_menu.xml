@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A0072"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <!-- Botón Registrar Malos Hábitos -->
+    <Button
+        android:id="@+id/registerHabitsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/registrar_malos_habitos"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/welcomeTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+    <!-- Botón Metas -->
+    <Button
+        android:id="@+id/goalsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/metas"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/registerHabitsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+    <!-- Botón Desafíos Diarios -->
+    <Button
+        android:id="@+id/dailyChallengesButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/desafios_diarios"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/goalsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+    <!-- Botón Progreso -->
+    <Button
+        android:id="@+id/progressButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/progreso"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/dailyChallengesButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+    <!-- Botón Reflexiones Diarias -->
+    <Button
+        android:id="@+id/dailyReflectionsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/reflexiones_diarias"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/progressButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+    <!-- Botón Tus Malos Hábitos -->
+    <Button
+        android:id="@+id/yourBadHabitsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/tus_malos_habitos"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/dailyReflectionsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+    <!-- Botón Cerrar Sesión -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="320dp"
+        android:text="@string/cerrar_sesion"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
